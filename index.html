@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="output.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="font-Noto-font">
+        <nav
+            class="px-5 py-2 container flex flex-row justify-between bg-main-color"
+        >
+            <p class="text-white text-lg font-semibold">
+                <a href="/">I&G Survey</a>
+            </p>
+            <p class="text-white text-base/[2rem] font-thin">설문조사 목록</p>
+            <p>
+                <button
+                    class="bg-blue-600 hover:bg-blue-700 text-white hover:text-gray-300 text-xs/[2rem] px-2 rounded-md mr-1"
+                    onclick="location.href='/login'"
+                >
+                    로그인
+                </button>
+                <button
+                    class="bg-white hover:bg-gray-300 text-blue-600 text-xs/[2rem] px-3 rounded-md"
+                >
+                    회원가입
+                </button>
+            </p>
+        </nav>
+        <div id="app"></div>
+        <script src="upload.js"></script>
+    </body>
+</html>
