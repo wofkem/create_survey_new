@@ -589,6 +589,10 @@ video {
   display: flex;
 }
 
+.h-1{
+  height: 0.25rem;
+}
+
 .h-1\/2{
   height: 50%;
 }
@@ -631,6 +635,10 @@ video {
 
 .w-1\/5{
   width: 20%;
+}
+
+.w-2\/15{
+  width: 13.33%;
 }
 
 .w-11\/12{
